@@ -1,24 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Brandon Hsu - Software Engineer</title>
+<link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
+<title>
+Brandon Hsu | SWE
+</title>
+<style>
+	*{
+		background-color: #2F2F31;
+	}
+	html{
+		scroll-behavior: smooth;
+	}
+	p{
+		margin-bottom: 3em;
+	}
+	div{
+		margin-top: 8em;
+		margin-bottom: 10em;
+	}
+	h1{		
+		font-family: "Rajdhani";
+		color: white;
+		padding: 35vh 0;
+		border: 0 px;
+		text-align: center;
+		font-size: 80px;	
+		animation: fadeInAnimation ease 6s; 
+		animation-iteration-count: 1; 
+        animation-fill-mode: forwards; 
+	}
+	.button{
+	border: none;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	font-size: 30px;
+	}
+	
+	.button:hover{
+	font-size: 40px;
+	}
+	body{
+		font-size: 30px;
+		color: white;
+		text-align: center;
+		font-family: "Arial";
+
+	}
+	h2{
+		font-size: 50px;
+		font-family: "Rajdhani";
+	}
+
+	@keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        } 
+</style>
 </head>
-<body>  
-    <p style="font-size:60px;text-align:center;font-family:courier">
-    Brandon Hsu
-    </p>
-    <p style = "font-size:40px;text-align:center;font-family:courier">
-    Software Engineering Web Portfolio
-    </p>
-    <p style = "font-size:30px;text-align:center;font-family:arial">
-    <a href="https://github.com/branboyo" target="_blank">
-    <img alt="GitHub" src="https://cdn.freebiesupply.com/logos/large/2x/github-icon-logo-png-transparent.png"
-         width="70" height="70"></a>
-    <a href="https://www.linkedin.com/in/bdehsu/" target="_blank"><img alt="LinkedIn" src="https://nepa.com/wp-content/uploads/2017/09/linkedin-logo.png"
-         width="70" height="70"></a>
-    <a href="mailto: hsubrandon2000@yahoo.com" target="_blank">hsubrandon2000@yahoo.com</a>
-    <a href="/resume">Resume</a>
-    </p>
+
+<body>
+
+<h1> Brandon Hsu - Software Engineer  <br>
+<a href = "#about" class = "button" style = "text-decoration: none">About Me</a> 
+<a href = "#projects" class = "button" style = "text-decoration: none">Projects</a> 
+<a href = "#contacts" class = "button" style = "text-decoration: none">Contacts</a> 
+<a href = "/resume" class = "button" style = "text-decoration: none" target = "_blank">Resume</a> 
+</h1>
+
+<div id = "about">
+<h2>About Me</h2>
+<p>I am currently a Junior Computer Science major at the University of Maryland, College Park. <br>
+I am based in Rockville, MD. </p>
+<p>Languages: Python, Java, C<br>
+Front-end skills: HTML5, CSS3<br>
+Back-end skills: Git<br>
+Miscellaneous: Spring MVC, MATLAB, MIPS Assembly</p>
+
+</div>
+<div id = "projects">
+<h2>Projects</h2>
+All my projects can be found at my GitHub:
+<a href="https://github.com/branboyo" target="_blank">
+<img style = "vertical-align: middle" src = "https://boxboat.com/assets/wf/images/github.9412ae55426a.png" width = "100px" height = "100px"></img><br></a>
+
+They include projects for class assignments as well as personal ones I want to highlight.
+</div>
+<div id = "contacts">
+<h2>Contact Me</h2>
+Email at: <a href= "mailto: hsubrandon2000@yahoo.com">hsubrandon2000@yahoo.com</a><br><br>
+Connect via: 
+<a href="https://www.linkedin.com/in/bdehsu/" target="_blank">
+<img style = "vertical-align: middle" src= "https://www.scientist.com/wp-content/uploads/2020/01/LinkedIn-white-logo.png" width="100px" height="100px"></img></a>
+
+
+</div>
+
 </body>
 </html>
